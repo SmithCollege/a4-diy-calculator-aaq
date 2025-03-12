@@ -51,6 +51,7 @@ public class Tokenizer {
 
   /** Run short test */
   public static void main(String[] args) {
+    System.out.println(readTokens("6 1 +"));
     if (args.length==0) {
       System.err.println("Usage:  java Tokenizer <expr>");
     } else {
